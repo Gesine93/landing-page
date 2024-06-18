@@ -1,2 +1,2 @@
 # landing-page
-The coding of this landing page template is one of the projects of The Odin Project.
+This code is a great template for a landing page. Creating it was one of the project tasks of The Odin Project.
