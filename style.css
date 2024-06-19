@@ -209,6 +209,7 @@ body {
 
   .sign_up {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .quote {
@@ -233,7 +234,8 @@ body {
   }
 
   .middle_images {
-    gap: 4%;
+    gap: 10px;
+    margin-bottom: 10px;
   }
 
   .middle_image {
