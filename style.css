@@ -22,3 +22,43 @@ body {
 .links {
   display: flex;
 }
+
+.intro {
+  display: flex;
+}
+
+.intro_content {
+  display: flex;
+  display-direction: column;
+  margin-right: auto;
+}
+
+.intro_image {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: centee;
+}
+
+.middle_part {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_part {
+  display: flex;
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+  
+  
