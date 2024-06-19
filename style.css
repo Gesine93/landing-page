@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -38,7 +40,7 @@ body {
   height: 60px;
   display: flex;
   justify-content: center;
-  align-items: centee;
+  align-items: center;
 }
 
 .middle_part {
