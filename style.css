@@ -3,12 +3,14 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .header {
   display: flex;
   background-color: green;
   flex-direction: column;
+  width: 100%;
 }
 
 .navbar {
@@ -27,6 +29,7 @@ body {
 
 .intro {
   display: flex;
+  width: 100%;
 }
 
 .intro_content {
@@ -46,18 +49,40 @@ body {
 .middle_part {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
+
+.middle_images {
+  display: flex;
+  justify-content: center;
+
+.middle_image {
+  width: 100px;
+  height: 100px:
 
 .quote {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .signup_part {
   display: flex;
+  width: 100%;
 }
+
+.small_signup_part {
+  display: flex;
+  padding: 5px;
+  background-color: green;
+}
+
+.signup_content {
+  display: flex;
+  flex-direction: column;
 
 .footer {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
