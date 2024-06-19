@@ -1,1 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex
+  flex-direction: column;
+}
 
+.header {
+  display: flex;
+  flex-direction: column;
+}.
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logoo {
+  display: flex;
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+}
