@@ -210,10 +210,34 @@ body {
   color: var(--colorThree);
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   .header, .middle_part {
     padding: 10px 20px 40px 20px;
+  }
+
+  .navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--colorOne);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .links {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .link {
+    margin-bottom: 10px;
   }
 
   .intro_content, .intro_image {
@@ -235,10 +259,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-  }
-
-  .signup_content {
-    width: 100%;
   }
 
   .sign_up_2 {
